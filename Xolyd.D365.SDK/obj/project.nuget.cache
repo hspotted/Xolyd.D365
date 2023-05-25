@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "/t6LD4q24QHN2hCn4+Bs/PYyI2yqBRnuOI1zUbNnJ815rx+mBiG65BVvSBoyW+WolToxzLdVhaNvAPpIh2QgNQ==",
+  "success": false,
+  "projectFilePath": "D:\\xolyd\\code\\tfs\\Xolyd\\Xolyd\\Xolyd.D365.SDK\\Xolyd.D365.SDK.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package .\\Properties\\package.nuspec. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": ".\\Properties\\package.nuspec",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win",
+        ".NETFramework,Version=v4.7.2/win-arm64",
+        ".NETFramework,Version=v4.7.2/win-x64",
+        ".NETFramework,Version=v4.7.2/win-x86"
+      ]
+    }
+  ]
+}

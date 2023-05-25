@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata>
 		<id>Xolyd.D365.SDK</id>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<authors>Henrique Fernandes</authors>
 		<owners>Xolyd</owners>
 		<description>Development Kit for D365 CRM</description>
@@ -13,7 +13,6 @@
 			<dependency id="Microsoft.CrmSdk.CoreAssemblies" version="9.0.2.49" />
 		</dependencies>
 		<tags>CRM D365 SDK XRM</tags>
-		<license type="MIT"/>
-		<repository type="git" url="https://github.com/hspotted/Xolyd.D365.SDK"/>
+		<repository type="git" url="https://github.com/hspotted/Xolyd.D365"/>
 	</metadata>
 </package>

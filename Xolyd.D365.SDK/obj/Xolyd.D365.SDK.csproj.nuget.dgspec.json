@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\xolyd\\code\\tfs\\Xolyd\\Xolyd\\Xolyd.D365.SDK\\Xolyd.D365.SDK.csproj": {}
+  },
+  "projects": {
+    "D:\\xolyd\\code\\tfs\\Xolyd\\Xolyd\\Xolyd.D365.SDK\\Xolyd.D365.SDK.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\xolyd\\code\\tfs\\Xolyd\\Xolyd\\Xolyd.D365.SDK\\Xolyd.D365.SDK.csproj",
+        "projectName": "Xolyd.D365.SDK",
+        "projectPath": "D:\\xolyd\\code\\tfs\\Xolyd\\Xolyd\\Xolyd.D365.SDK\\Xolyd.D365.SDK.csproj",
+        "packagesPath": "C:\\Users\\hspot\\.nuget\\packages\\",
+        "outputPath": "D:\\xolyd\\code\\tfs\\Xolyd\\Xolyd\\Xolyd.D365.SDK\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hspot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            ".\\Properties\\package.nuspec": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

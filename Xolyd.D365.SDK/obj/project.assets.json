@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {},
+    ".NETFramework,Version=v4.7.2/win": {},
+    ".NETFramework,Version=v4.7.2/win-arm64": {},
+    ".NETFramework,Version=v4.7.2/win-x64": {},
+    ".NETFramework,Version=v4.7.2/win-x86": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      ".\\Properties\\package.nuspec >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\hspot\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\xolyd\\code\\tfs\\Xolyd\\Xolyd\\Xolyd.D365.SDK\\Xolyd.D365.SDK.csproj",
+      "projectName": "Xolyd.D365.SDK",
+      "projectPath": "D:\\xolyd\\code\\tfs\\Xolyd\\Xolyd\\Xolyd.D365.SDK\\Xolyd.D365.SDK.csproj",
+      "packagesPath": "C:\\Users\\hspot\\.nuget\\packages\\",
+      "outputPath": "D:\\xolyd\\code\\tfs\\Xolyd\\Xolyd\\Xolyd.D365.SDK\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\hspot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "allWarningsAsErrors": true
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          ".\\Properties\\package.nuspec": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package .\\Properties\\package.nuspec. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": ".\\Properties\\package.nuspec",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win",
+        ".NETFramework,Version=v4.7.2/win-arm64",
+        ".NETFramework,Version=v4.7.2/win-x64",
+        ".NETFramework,Version=v4.7.2/win-x86"
+      ]
+    }
+  ]
+}
